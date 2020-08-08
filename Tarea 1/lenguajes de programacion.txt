@@ -1,0 +1,39 @@
+Diferencia entre Lenguajes de Programación Imperativa y Declarativa:
+
+Los lenguajes de programacion existen varios paradigmas que son utilizados en distintos proyectos, por lo que cada uno tiene su propio fin, y cada uno se utiliza en los proyectos que mas se adecuen a ellos.
+Existen dos tipos de lenuajes de programacion muy distuntivos, y de los cuales se sub-dividen los distintos paradigmas mas utilizados en el mundo de la programación.
+Los lenguajes de Tipo decladativo se refiere practicamente a las instrucciones que se realizan en el codigo, los cuales se refieren a dar instrucciones que implicitamente se deben resolver por parte del compilador u un programa intermedio que realicen las instruciones dadas, mientras que los lenguajes de tipo imperativo refiere escactamente a declaraciones que se realizan en el codigo y que explícitamente el programa o compiador deben realizarl, pueden tomarse en cuenta como las operaciones matematicas, opciones y ciclos para expresar un elemento de salida.
+
+Ejemplos:
+
+function fibonacci(n) {
+  var actual, ant1, ant2;
+  if (n === 0) {
+    actual = 0;
+  } else if (n === 1) {
+    actual = 1;
+  } else {
+    ant1 = ant2 = 1;
+    for (i = 2; i < n; i++) {
+      actual = ant1 + ant2;
+      ant2 = ant1;
+      ant1 = actual;
+    }
+  }
+  return actual;
+}
+
+*** La funcion fibonachi realizada con un lenguaje imperativo
+
+
+-module(fibonacci).
+-export([fibonacci/1]).
+
+-spec fibonacci(non_neg_integer()) -> non_neg_integer().
+fibonacci(0) -> 0;
+fibonacci(1) -> 1;
+fibonacci(N) -> fibonacci(N - 1) + fibonacci(N - 2).
+
+*** La funcion fibonachi realizada con un lenguaje delarativo
+
+

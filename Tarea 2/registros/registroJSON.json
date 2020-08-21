@@ -1,25 +1,25 @@
 [
     {
-        "Id" : "Registro 01",
-        "nombre" : "Toshiba Satellite",
+        "Registro" : "01",
+        "Nombre" : "Toshiba Satellite",
         "Hz" : 50.0,
         "Gaming" : false
     },
     {
-        "Id" : "Registro 03",
-        "nombre" : "Dell G5 15",
+        "Registro" : "02",
+        "Nombre" : "Dell G5 15",
         "Hz" : 60.0,
         "Gaming" : true
     },
     {
-        "Id" : "Registro 03",
-        "nombre" : "Acer Nitro 5",
+        "Registro" : "03",
+        "Nombre" : "Acer Nitro 5",
         "Hz" : 60.0,
         "Gaming" : true
     },
     {
-	"Id" : "Registro 01",
-        "nombre" : "Dell Inspiron",
+	"Registro" : "04",
+        "Nombre" : "Dell Inspiron",
         "HZ" : 60.0,
         "Gaming" : false
    }

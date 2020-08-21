@@ -1,17 +1,20 @@
 import json
 
+data=None
+
 def readJson():
     file = open("registros/registroJSON.json")
     data = json.load(file)
-    file.close()
+    print(type(data))
+    print()
+    file.close()    
     return data
 def main():
-    dict = readJson()
+
     print()
     print("Estructura en registro JSON:")
-    print("                      Arreglo de objetos")
     print()
-
+    dict = readJson()
     for element in dict:
         print(str(element).replace("{","").replace("}","").replace("'",""))
-
+    

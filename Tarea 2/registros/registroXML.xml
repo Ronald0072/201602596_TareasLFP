@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<equipos>
+ <laptop>
+ <reg>01</reg> 
+ <nombre>Toshiba</nombre>
+ <hz>50.0</hz>
+ <gamming>false</gamming>
+ </laptop>
+ <laptop>
+ <reg>02</reg> 
+ <nombre>Dell G5 15</nombre>
+ <hz>60.0</hz>
+ <gamming>true</gamming>
+ </laptop>
+ <laptop>
+ <reg>03</reg> 
+ <nombre>Acer Nitro 5</nombre>
+ <hz>60.0</hz>
+ <gamming>true</gamming>
+ </laptop>
+ <laptop>
+ <reg>04</reg> 
+ <nombre>Dell Inspiron</nombre>
+ <hz>60.0</hz>
+ <gamming>false</gamming>
+ </laptop>
+</equipos>

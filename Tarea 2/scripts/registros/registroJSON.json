@@ -1,0 +1,26 @@
+[
+    {
+        "Registro" : "01",
+        "Nombre" : "Toshiba Satellite",
+        "Hz" : 50.0,
+        "Gaming" : false
+    },
+    {
+        "Registro" : "02",
+        "Nombre" : "Dell G5 15",
+        "Hz" : 60.0,
+        "Gaming" : true
+    },
+    {
+        "Registro" : "03",
+        "Nombre" : "Acer Nitro 5",
+        "Hz" : 60.0,
+        "Gaming" : true
+    },
+    {
+	"Registro" : "04",
+        "Nombre" : "Dell Inspiron",
+        "HZ" : 60.0,
+        "Gaming" : false
+   }
+]

@@ -16,5 +16,14 @@ def main():
     print()
     dict = readJson()
     for element in dict:
-        print(str(element).replace("{","").replace("}","").replace("'",""))
+        el=str(element).replace("{","").replace("}","").replace("'","").replace(" ","")
+        el=el.lower().replace("registro:","").replace("nombre:","").replace("hz:","").replace("gamming:","")
+        dat=el.split(",")
+        
+            
+        print("-------------")
+
+        
+        
     
+main()
